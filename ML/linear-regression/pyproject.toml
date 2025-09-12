@@ -26,7 +26,7 @@ dependencies = [
     "xgboost>=1.7.6",
     "ipykernel>=6.25.0",
     "seaborn>=0.10.0",
-    "turtle",
+    "requests>=2.32.4",
 ]
 
 [project.optional-dependencies]
@@ -39,3 +39,9 @@ include = ["src*"]
 
 [tool.uv]
 dev-dependencies = ["pytest>=6.0", "black>=21.0", "flake8>=3.9.0"]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"  # 备用镜像
+extra-index-url = [
+    "https://mirrors.aliyun.com/pypi/simple/",
+    "https://pypi.org/simple/"
+]
+
