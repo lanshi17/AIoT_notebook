@@ -29,19 +29,14 @@ dependencies = [
     "requests>=2.32.4",
 ]
 
-[project.optional-dependencies]
-dev = ["pytest>=6.0", "black>=21.0", "flake8>=3.9.0", "mypy>=0.910"]
-notebook = ["jupyter>=1.0.0", "ipywidgets>=7.6.0"]
-
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["src*"]
 
 [tool.uv]
-dev-dependencies = ["pytest>=6.0", "black>=21.0", "flake8>=3.9.0"]
-index-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"  # 备用镜像
-extra-index-url = [
-    "https://mirrors.aliyun.com/pypi/simple/",
-    "https://pypi.org/simple/"
-]
+index-url = "https://pypi.org/simple/"
+
+[dependency-groups]
+dev = ["pytest>=6.0", "black>=21.0", "flake8>=3.9.0", "mypy>=0.910"]
+notebook = ["jupyter>=1.0.0", "ipywidgets>=7.6.0"]
 
