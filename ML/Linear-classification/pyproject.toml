@@ -16,6 +16,7 @@ dependencies = [
   "jupyterlab-kernelspy>=4.0.0",
   "scikit-learn>=1.8.0",
   "loguru>=0.7.3",
+  "tqdm[notebook]>=4.67.3",
 ]
 
 [project.optional-dependencies]
