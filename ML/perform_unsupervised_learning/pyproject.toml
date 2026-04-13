@@ -23,6 +23,8 @@ dependencies = [
   "dotenv>=0.9.9",
   "sentence-transformers>=5.3.0",
   "accelerate>=1.13.0",
+  "loguru>=0.7.3",
+  "mermaid-py>=0.8.4",
 ]
 [project.optional-dependencies]
 # ------------------------------------------------------------
