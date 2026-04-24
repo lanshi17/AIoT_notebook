@@ -25,6 +25,7 @@ dependencies = [
   "accelerate>=1.13.0",
   "loguru>=0.7.3",
   "mermaid-py>=0.8.4",
+  "pydantic-settings>=2.14.0",
 ]
 [project.optional-dependencies]
 # ------------------------------------------------------------
