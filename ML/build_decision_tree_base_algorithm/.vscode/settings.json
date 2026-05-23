@@ -1,4 +1,14 @@
 {
-    "python.languageServer": "Pylance",
-    "editor.inlineSuggest.enabled": false,
+  "python.languageServer": "Pylance",
+  "editor.inlineSuggest.enabled": false,
+  "editor.suggestOnTriggerCharacters": true,
+  "jupyter.completionTriggerCharacters": {
+    "python": [".", "'", "\"", "/"]
+  },
+  "notebook.completionTriggerCharacters": {
+    "python": [".", "'", "\"", "/"]
+  },
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.defaultInterpreterPath": ".venv/bin/python"
 }
