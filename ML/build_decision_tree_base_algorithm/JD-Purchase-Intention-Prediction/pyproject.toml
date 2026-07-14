@@ -1,5 +1,5 @@
 [project]
-name = "build-decision-tree-base-algorithm"
+name = "jd-purchase-intention-prediction"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -17,9 +17,4 @@ dependencies = [
     "seaborn>=0.13.2",
     "tqdm>=4.67.3",
     "xlrd>=2.0.2",
-]
-
-[tool.uv.workspace]
-members = [
-    "JD-Purchase-Intention-Prediction",
 ]

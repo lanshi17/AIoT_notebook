@@ -171,3 +171,4 @@ cython_debug/
 .pypirc
 *.work_logs.sh
 **/*.log
+ML/build_decision_tree_base_algorithm/JD-Purchase-Intention-Prediction/data/
